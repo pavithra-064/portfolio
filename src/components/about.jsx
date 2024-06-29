@@ -17,7 +17,6 @@ const About = () => {
           />
         </div>
 
-        {/* Content on the right */}
         <div className="w-full md:w-1/2 flex flex-col items-start justify-center">
           <div className="w-full  flex flex-col items-start justify-center">
             <p className=" text-[#D6D4D4] font-sans md:pt-4 text-md text-[0.85rem] text md:text-[1.1rem] md:-ml-12 text-start">
@@ -58,7 +57,7 @@ const About = () => {
               <div>
                 <a
                   href="Pavithra S_Resume.pdf"
-                  download="Pavithra_S_Resume.pdf"
+                  download="Pavithra S_Resume.pdf"
                 >
                   <h3 className="text-[#E59BE9] border-2 p-2 px-4 rounded-lg border-[#0f0f0f] shadow-sm shadow-zinc-700">
                     Resume

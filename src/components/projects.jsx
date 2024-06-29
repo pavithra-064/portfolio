@@ -1,11 +1,5 @@
 import React from "react";
-import diary from "../assets/2-650x650.png";
-import url from "../assets/urlshortener.jpeg";
-import ckd from "../assets/ml-e1610553826718.jpg";
-import rn from "../assets/jobsearch.jpeg";
-import wsn from "../assets/wsn.png";
-import github from "../assets/icons8-github-30.png";
-import linkIcon from "../assets/Link.png"; // Make sure this is a white or lighter icon
+import linkIcon from "../assets/Link.png"; 
 import "../App.css";
 
 const Projects = () => {
@@ -58,7 +52,6 @@ const Projects = () => {
 
 const projectsData = [
   {
-    image: diary,
     title: "Dear Diary",
     smallDescription: "Daily journal entries",
     description:

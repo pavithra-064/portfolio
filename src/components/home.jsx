@@ -1,7 +1,7 @@
 // Home.js
 import React, { useState, useEffect } from "react";
 import imgg from "../assets/homeimg.png";
-import "../App.css"; // Ensure you import the CSS file for styling
+import "../App.css"; 
 
 const Home = () => {
   const roles = [
@@ -9,8 +9,8 @@ const Home = () => {
     "Full Stack Developer",
     "MERN Stack Developer",
   ];
-  const delay = 40; // Typing speed in milliseconds
-  const pause = 400; // Pause duration before clearing the text
+  const delay = 40;
+  const pause = 400; 
   const [currentText, setCurrentText] = useState("");
   const [roleIndex, setRoleIndex] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -97,7 +97,6 @@ const Navbar = () => {
         </nav>
       </section>
 
-      {/* Add a line to indicate the end of the navbar */}
       <div className="h-1 bg-[#E59BE9]"></div>
     </div>
   );
